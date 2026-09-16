@@ -53,3 +53,14 @@ if (answer === "true") {
 } else {
   alert("Please write true or false");
 }
+
+alert("All done! Final scorie is ${score} out of 3");
+if (score === 0) {
+  alert("Woof.");
+} else if (score === 1) {
+  alert("Atleast you tried");
+} else if (score === 2) {
+  alert("Solid");
+} else {
+  alert("That'll do, pig. That'll do.");
+}
